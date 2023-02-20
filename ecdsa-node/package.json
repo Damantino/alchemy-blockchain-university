@@ -1,0 +1,17 @@
+{
+  "name": "ecdsa-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server-dev": "nodemon ./packages/server/index.js",
+    "client-dev": "cd ./packages/client && vite"
+  },
+  "repository": "https://github.com/alchemyplatform/ecdsa-node.git",
+  "workspaces":[
+    "packages/*"
+  ],
+  "author": "Damantino <perezgarciadaniel1@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
