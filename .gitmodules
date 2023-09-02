@@ -1,0 +1,3 @@
+[submodule "gift-list"]
+	path = /home/damantino/Documents/Alchemy_University/gift-list
+	url = https://github.com/alchemyplatform/GiftList.git
